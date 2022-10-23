@@ -6,49 +6,49 @@ while(qtd<4 || qtd>14 ||qtd%2!==0){
 
 
 
-const arrayCompleto = [`<div onclick="virar(this)" class="card metal">
+const arrayCompleto = [`<div class='mobile'> <div onclick="virar(this)" class="card metal">
 <div class="back face"><img src="arquivos/metalparrot.gif"></div>
 <div class="front face"><img src="arquivos/back.png" alt="pagaio"></div>
-</div>`, `<div onclick="virar(this)" class="card metal">
+</div></div>`, `<div class='mobile'><div onclick="virar(this)" class="card metal">
 <div class="back face"><img src="arquivos/metalparrot.gif"></div>
 <div class="front face"><img src="arquivos/back.png" alt="pagaio"></div>
-</div>`, `<div onclick="virar(this)" class="card bobros">
+</div></div>`, `<div class='mobile'><div onclick="virar(this)" class="card bobros">
 <div class="back face"><img src="arquivos/bobrossparrot.gif"></div>
 <div class="front face"><img src="arquivos/back.png" alt="pagaio"></div>
-</div>`, `<div onclick="virar(this)" class="card bobros">
+</div></div>`, `<div class='mobile'><div onclick="virar(this)" class="card bobros">
 <div class="back face"><img src="arquivos/bobrossparrot.gif"></div>
 <div class="front face"><img src="arquivos/back.png" alt="pagaio"></div>
-</div>`, `<div onclick="virar(this)" class="card explody">
+</div></div>`, `<div class='mobile'><div onclick="virar(this)" class="card explody">
 <div class="back face"><img src="arquivos/explodyparrot.gif"></div>
 <div class="front face"><img src="arquivos/back.png" alt="pagaio"></div>
-</div>`, `<div onclick="virar(this)" class="card explody">
+</div></div>`, `<div class='mobile'><div onclick="virar(this)" class="card explody">
 <div class="back face"><img src="arquivos/explodyparrot.gif"></div>
 <div class="front face"><img src="arquivos/back.png" alt="pagaio"></div>
-</div>`, `<div onclick="virar(this)" class="card fiesta">
+</div></div>`, `<div class='mobile'><div onclick="virar(this)" class="card fiesta">
 <div class="back face"><img src="arquivos/fiestaparrot.gif"></div>
 <div class="front face"><img src="arquivos/back.png" alt="pagaio"></div>
-</div>`, `<div onclick="virar(this)" class="card fiesta">
+</div></div>`, `<div class='mobile'><div onclick="virar(this)" class="card fiesta">
 <div class="back face"><img src="arquivos/fiestaparrot.gif"></div>
 <div class="front face"><img src="arquivos/back.png" alt="pagaio"></div>
-</div>`, `<div onclick="virar(this)" class="card revert">
+</div></div>`, `<div class='mobile'><div onclick="virar(this)" class="card revert">
 <div class="back face"><img src="arquivos/revertitparrot.gif"></div>
 <div class="front face"><img src="arquivos/back.png" alt="pagaio"></div>
-</div>`, `<div onclick="virar(this)" class="card revert">
+</div></div>`, `<div class='mobile'><div onclick="virar(this)" class="card revert">
 <div class="back face"><img src="arquivos/revertitparrot.gif"></div>
 <div class="front face"><img src="arquivos/back.png" alt="pagaio"></div>
-</div>`, `<div onclick="virar(this)" class="card triple">
+</div></div>`, `<div class='mobile'><div onclick="virar(this)" class="card triple">
 <div class="back face"><img src="arquivos/tripletsparrot.gif"></div>
 <div class="front face"><img src="arquivos/back.png" alt="pagaio"></div>
-</div>`, `<div onclick="virar(this)" class="card triple">
+</div></div>`, `<div class='mobile'><div onclick="virar(this)" class="card triple">
 <div class="back face"><img src="arquivos/tripletsparrot.gif"></div>
 <div class="front face"><img src="arquivos/back.png" alt="pagaio"></div>
-</div>`, `<div onclick="virar(this)" class="card uni">
+</div></div>`, `<div class='mobile'><div onclick="virar(this)" class="card uni">
 <div class="back face"><img src="arquivos/unicornparrot.gif"></div>
 <div class="front face"><img src="arquivos/back.png" alt="pagaio"></div>
-</div>`, `<div onclick="virar(this)" class="card uni">
+</div></div>`, `<div class='mobile'><div onclick="virar(this)" class="card uni">
 <div class="back face"><img src="arquivos/unicornparrot.gif"></div>
 <div class="front face"><img src="arquivos/back.png" alt="pagaio"></div>
-</div>`]
+</div></div>`]
 let arrayUsavel =[];
 
 for(let i =0; i<qtd;i++){

@@ -110,3 +110,12 @@ img{
   .front-flip{
     transform: rotateY(-180deg);
   }
+
+@media (max-width: 600px) {
+  .cards, .mobile{width:100%}
+  .mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
